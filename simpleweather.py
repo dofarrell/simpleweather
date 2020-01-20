@@ -11,7 +11,7 @@ ZIPCODE = '59701'
 # Imperial gives you the temperature in fahreinheit and metric gives you celsius.
 UNITS = 'imperial'
 
-if APIKEY = '':
+if APIKEY == '':
     print('Please edit simpleweather.py and add your OpenWeatherMap API key.')
     exit()
 
