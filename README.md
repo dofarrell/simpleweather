@@ -30,7 +30,8 @@ To avoid Python errors showing up on your taskbar when you don't have an interne
 # Setting up with Genmon on XFCE
 1. Add a new item to your XFCE panel and select "Generic Monitor".
 2. Right click the new item on the panel and go to Properties.
-3. Enter the full path of the script in the "Command" field, and change the update period to at least 600 seconds (10 minutes).
-..*This is due to the fact that OpenWeatherMap only updates their weather data once every 10 minutes at the absolute minimum. I personally set mine to 1800 seconds. (30 minutes)
+3. Enter the full path of the script in the "Command" field, and change the update period to at least 600 seconds (10 minutes) This is due to the fact that OpenWeatherMap only updates their weather data once every 10 minutes at the absolute minimum. I personally set mine to 1800 seconds. (30 minutes)
+
+Screenshot:
 
 ![screenshot](https://user-images.githubusercontent.com/59930698/72713964-ee93e300-3b3b-11ea-8221-d908fc748e27.png)
